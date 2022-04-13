@@ -1,0 +1,24 @@
+{
+    "os": "Linux-3.10.0-1160.11.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-13T09:07:30.005163",
+    "startedAt": "2022-04-13T09:07:27.546229",
+    "docker": null,
+    "gpu": "A100-SXM4-40GB",
+    "gpu_count": 8,
+    "cpu_count": 256,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "/raid/projects/weustis/CrossConv/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/WeustiS/CrossConv.git",
+        "commit": "843121fb692ada88ab7e739187b37cc903d63467"
+    },
+    "email": "",
+    "root": "/raid/projects/weustis/CrossConv",
+    "host": "hal-dgx",
+    "username": "weustis",
+    "executable": "/raid/projects/weustis/conda/envs/weustis/bin/python"
+}

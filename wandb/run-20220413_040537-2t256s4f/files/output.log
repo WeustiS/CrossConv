@@ -1,0 +1,6 @@
+/raid/projects/weustis/conda/envs/weustis/lib/python3.9/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1640811803361/work/aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Traceback (most recent call last):
+  File "/raid/projects/weustis/CrossConv/train.py", line 49, in <module>
+    for x,y in tqdm(trainloader):
+NameError: name 'trainloader' is not defined

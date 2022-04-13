@@ -1,0 +1,62 @@
+2022-04-13 04:12:03,375 INFO    MainThread:31765 [internal.py:wandb_internal():89] W&B internal server running at pid: 31765, started at: 2022-04-13 04:12:03.375051
+2022-04-13 04:12:03,377 DEBUG   HandlerThread:31765 [handler.py:handle_request():131] handle_request: check_version
+2022-04-13 04:12:03,377 INFO    WriterThread:31765 [datastore.py:open_for_write():77] open: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/run-2ipw794k.wandb
+2022-04-13 04:12:03,378 DEBUG   SenderThread:31765 [sender.py:send():235] send: header
+2022-04-13 04:12:03,378 DEBUG   SenderThread:31765 [sender.py:send_request():249] send_request: check_version
+2022-04-13 04:12:03,412 DEBUG   SenderThread:31765 [sender.py:send():235] send: run
+2022-04-13 04:12:03,483 INFO    SenderThread:31765 [dir_watcher.py:__init__():169] watching files in: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files
+2022-04-13 04:12:03,483 INFO    SenderThread:31765 [sender.py:_start_run_threads():809] run started: 2ipw794k with start time 1649841122
+2022-04-13 04:12:03,483 DEBUG   SenderThread:31765 [sender.py:send():235] send: summary
+2022-04-13 04:12:03,483 INFO    SenderThread:31765 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:12:03,485 DEBUG   HandlerThread:31765 [handler.py:handle_request():131] handle_request: run_start
+2022-04-13 04:12:04,486 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/wandb-summary.json
+2022-04-13 04:12:05,044 DEBUG   HandlerThread:31765 [meta.py:__init__():36] meta init
+2022-04-13 04:12:05,045 DEBUG   HandlerThread:31765 [meta.py:__init__():50] meta init done
+2022-04-13 04:12:05,045 DEBUG   HandlerThread:31765 [meta.py:probe():210] probe
+2022-04-13 04:12:05,052 DEBUG   HandlerThread:31765 [meta.py:_setup_git():200] setup git
+2022-04-13 04:12:05,085 DEBUG   HandlerThread:31765 [meta.py:_setup_git():207] setup git done
+2022-04-13 04:12:05,086 DEBUG   HandlerThread:31765 [meta.py:_save_pip():54] save pip
+2022-04-13 04:12:05,086 DEBUG   HandlerThread:31765 [meta.py:_save_pip():68] save pip done
+2022-04-13 04:12:05,087 DEBUG   HandlerThread:31765 [meta.py:_save_conda():75] save conda
+2022-04-13 04:12:05,486 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/conda-environment.yaml
+2022-04-13 04:12:05,486 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/requirements.txt
+2022-04-13 04:12:05,716 DEBUG   HandlerThread:31765 [meta.py:_save_conda():85] save conda done
+2022-04-13 04:12:05,716 DEBUG   HandlerThread:31765 [meta.py:probe():248] probe done
+2022-04-13 04:12:05,720 DEBUG   SenderThread:31765 [sender.py:send():235] send: files
+2022-04-13 04:12:05,720 INFO    SenderThread:31765 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-04-13 04:12:05,724 DEBUG   HandlerThread:31765 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:12:05,724 DEBUG   SenderThread:31765 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:12:06,015 INFO    Thread-11 :31765 [upload_job.py:push():137] Uploaded file /tmp/tmp6iwgq9plwandb/245i0m4q-wandb-metadata.json
+2022-04-13 04:12:06,487 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/conda-environment.yaml
+2022-04-13 04:12:06,487 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:06,487 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/wandb-metadata.json
+2022-04-13 04:12:08,487 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:14,490 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:18,492 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:20,493 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:20,781 DEBUG   HandlerThread:31765 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:12:20,782 DEBUG   SenderThread:31765 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:12:22,494 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:24,495 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:26,496 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:28,497 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:30,498 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:32,498 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:34,499 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:35,831 DEBUG   HandlerThread:31765 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:12:35,831 DEBUG   SenderThread:31765 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:12:36,500 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:38,502 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:40,502 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:41,622 DEBUG   SenderThread:31765 [sender.py:send():235] send: stats
+2022-04-13 04:12:42,504 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:44,504 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:45,564 WARNING MainThread:31765 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-04-13 04:12:46,506 INFO    Thread-8  :31765 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/files/output.log
+2022-04-13 04:12:46,557 WARNING MainThread:31765 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-04-13 04:12:46,558 ERROR   MainThread:31765 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-04-13 04:12:46,793 INFO    SenderThread:31765 [sender.py:finish():1075] shutting down sender
+2022-04-13 04:12:46,794 INFO    HandlerThread:31765 [handler.py:finish():739] shutting down handler
+2022-04-13 04:12:46,794 INFO    SenderThread:31765 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-13 04:12:46,795 INFO    WriterThread:31765 [datastore.py:close():281] close: /raid/projects/weustis/CrossConv/wandb/run-20220413_041202-2ipw794k/run-2ipw794k.wandb
+2022-04-13 04:12:46,875 INFO    MainThread:31765 [internal.py:handle_exit():79] Internal process exited

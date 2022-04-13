@@ -1,0 +1,180 @@
+2022-04-13 04:10:31,235 INFO    MainThread:253058 [internal.py:wandb_internal():89] W&B internal server running at pid: 253058, started at: 2022-04-13 04:10:31.234922
+2022-04-13 04:10:31,237 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: check_version
+2022-04-13 04:10:31,237 INFO    WriterThread:253058 [datastore.py:open_for_write():77] open: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/run-2u9vkniz.wandb
+2022-04-13 04:10:31,239 DEBUG   SenderThread:253058 [sender.py:send():235] send: header
+2022-04-13 04:10:31,239 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: check_version
+2022-04-13 04:10:31,274 DEBUG   SenderThread:253058 [sender.py:send():235] send: run
+2022-04-13 04:10:31,346 INFO    SenderThread:253058 [dir_watcher.py:__init__():169] watching files in: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files
+2022-04-13 04:10:31,346 INFO    SenderThread:253058 [sender.py:_start_run_threads():809] run started: 2u9vkniz with start time 1649841030
+2022-04-13 04:10:31,346 DEBUG   SenderThread:253058 [sender.py:send():235] send: summary
+2022-04-13 04:10:31,346 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:10:31,347 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: run_start
+2022-04-13 04:10:32,348 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:10:32,910 DEBUG   HandlerThread:253058 [meta.py:__init__():36] meta init
+2022-04-13 04:10:32,910 DEBUG   HandlerThread:253058 [meta.py:__init__():50] meta init done
+2022-04-13 04:10:32,910 DEBUG   HandlerThread:253058 [meta.py:probe():210] probe
+2022-04-13 04:10:32,919 DEBUG   HandlerThread:253058 [meta.py:_setup_git():200] setup git
+2022-04-13 04:10:32,950 DEBUG   HandlerThread:253058 [meta.py:_setup_git():207] setup git done
+2022-04-13 04:10:32,950 DEBUG   HandlerThread:253058 [meta.py:_save_pip():54] save pip
+2022-04-13 04:10:32,950 DEBUG   HandlerThread:253058 [meta.py:_save_pip():68] save pip done
+2022-04-13 04:10:32,951 DEBUG   HandlerThread:253058 [meta.py:_save_conda():75] save conda
+2022-04-13 04:10:33,350 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/requirements.txt
+2022-04-13 04:10:33,350 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/conda-environment.yaml
+2022-04-13 04:10:33,595 DEBUG   HandlerThread:253058 [meta.py:_save_conda():85] save conda done
+2022-04-13 04:10:33,595 DEBUG   HandlerThread:253058 [meta.py:probe():248] probe done
+2022-04-13 04:10:33,598 DEBUG   SenderThread:253058 [sender.py:send():235] send: files
+2022-04-13 04:10:33,599 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-04-13 04:10:33,604 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:10:33,604 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:10:33,918 INFO    Thread-11 :253058 [upload_job.py:push():137] Uploaded file /tmp/tmpm6_d398lwandb/3oatnoz8-wandb-metadata.json
+2022-04-13 04:10:34,350 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/conda-environment.yaml
+2022-04-13 04:10:34,350 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:34,350 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-metadata.json
+2022-04-13 04:10:36,351 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:42,354 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:46,356 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:46,699 DEBUG   SenderThread:253058 [sender.py:send():235] send: history
+2022-04-13 04:10:46,700 DEBUG   SenderThread:253058 [sender.py:send():235] send: summary
+2022-04-13 04:10:46,700 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:10:47,356 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:10:48,357 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:48,798 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:10:48,800 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:10:50,358 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:50,541 DEBUG   SenderThread:253058 [sender.py:send():235] send: history
+2022-04-13 04:10:50,542 DEBUG   SenderThread:253058 [sender.py:send():235] send: summary
+2022-04-13 04:10:50,542 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:10:51,359 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:10:52,359 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:54,215 DEBUG   SenderThread:253058 [sender.py:send():235] send: history
+2022-04-13 04:10:54,215 DEBUG   SenderThread:253058 [sender.py:send():235] send: summary
+2022-04-13 04:10:54,216 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:10:54,360 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:10:54,360 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:10:55,055 WARNING MainThread:253058 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-04-13 04:10:56,361 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:11:02,364 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:11:03,268 DEBUG   SenderThread:253058 [sender.py:send():235] send: telemetry
+2022-04-13 04:11:03,268 DEBUG   SenderThread:253058 [sender.py:send():235] send: exit
+2022-04-13 04:11:03,268 INFO    SenderThread:253058 [sender.py:send_exit():371] handling exit code: 1
+2022-04-13 04:11:03,270 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:03,270 INFO    SenderThread:253058 [sender.py:send_exit():373] handling runtime: 31
+2022-04-13 04:11:03,271 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:11:03,271 INFO    SenderThread:253058 [sender.py:send_exit():379] send defer
+2022-04-13 04:11:03,272 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:03,272 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:03,273 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 0
+2022-04-13 04:11:03,273 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:03,273 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-13 04:11:03,273 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 1
+2022-04-13 04:11:03,273 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:03,273 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 1
+2022-04-13 04:11:03,364 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:11:03,364 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:11:04,067 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,068 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,068 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-13 04:11:04,068 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 2
+2022-04-13 04:11:04,069 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,069 DEBUG   SenderThread:253058 [sender.py:send():235] send: stats
+2022-04-13 04:11:04,069 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:04,072 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 2
+2022-04-13 04:11:04,072 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,072 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-13 04:11:04,073 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 3
+2022-04-13 04:11:04,073 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:04,073 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 3
+2022-04-13 04:11:04,073 DEBUG   SenderThread:253058 [sender.py:send():235] send: summary
+2022-04-13 04:11:04,074 INFO    SenderThread:253058 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:11:04,074 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,074 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-13 04:11:04,074 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 4
+2022-04-13 04:11:04,074 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:04,074 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 4
+2022-04-13 04:11:04,074 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,074 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-13 04:11:04,149 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 5
+2022-04-13 04:11:04,150 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:04,150 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 5
+2022-04-13 04:11:04,150 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,150 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-13 04:11:04,150 INFO    SenderThread:253058 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-13 04:11:04,171 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,365 INFO    Thread-8  :253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/config.yaml
+2022-04-13 04:11:04,365 INFO    SenderThread:253058 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:11:04,366 INFO    SenderThread:253058 [dir_watcher.py:finish():313] scan: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files
+2022-04-13 04:11:04,366 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/conda-environment.yaml conda-environment.yaml
+2022-04-13 04:11:04,366 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/config.yaml config.yaml
+2022-04-13 04:11:04,366 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log output.log
+2022-04-13 04:11:04,371 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/requirements.txt requirements.txt
+2022-04-13 04:11:04,372 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json wandb-summary.json
+2022-04-13 04:11:04,376 INFO    SenderThread:253058 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-metadata.json wandb-metadata.json
+2022-04-13 04:11:04,382 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 6
+2022-04-13 04:11:04,383 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,385 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:04,386 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 6
+2022-04-13 04:11:04,386 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:04,386 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-13 04:11:04,386 INFO    SenderThread:253058 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-13 04:11:04,489 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,489 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,591 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,592 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,684 INFO    Thread-14 :253058 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/output.log
+2022-04-13 04:11:04,686 INFO    Thread-13 :253058 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/config.yaml
+2022-04-13 04:11:04,693 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,693 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,713 INFO    Thread-16 :253058 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/wandb-summary.json
+2022-04-13 04:11:04,795 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,795 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,896 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,896 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:04,998 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:04,998 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,099 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,099 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,201 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,201 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,302 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,302 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,404 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,404 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,470 INFO    Thread-15 :253058 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/requirements.txt
+2022-04-13 04:11:05,506 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,506 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,582 INFO    Thread-12 :253058 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/files/conda-environment.yaml
+2022-04-13 04:11:05,607 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,608 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,709 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,709 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,783 INFO    Thread-7  :253058 [sender.py:transition_state():392] send defer: 7
+2022-04-13 04:11:05,783 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:05,783 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 7
+2022-04-13 04:11:05,783 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:05,783 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-13 04:11:05,810 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:05,905 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 8
+2022-04-13 04:11:05,906 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:05,906 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:05,907 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 8
+2022-04-13 04:11:05,907 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:05,907 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-13 04:11:05,907 INFO    SenderThread:253058 [sender.py:transition_state():392] send defer: 9
+2022-04-13 04:11:05,907 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:11:05,907 DEBUG   SenderThread:253058 [sender.py:send():235] send: final
+2022-04-13 04:11:05,908 INFO    HandlerThread:253058 [handler.py:handle_request_defer():154] handle defer: 9
+2022-04-13 04:11:05,908 DEBUG   SenderThread:253058 [sender.py:send():235] send: footer
+2022-04-13 04:11:05,908 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:11:05,908 INFO    SenderThread:253058 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-13 04:11:06,007 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:11:06,008 DEBUG   SenderThread:253058 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:11:06,008 INFO    SenderThread:253058 [file_pusher.py:join():182] waiting for file pusher
+2022-04-13 04:11:06,107 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: get_summary
+2022-04-13 04:11:06,109 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: sampled_history
+2022-04-13 04:11:06,110 DEBUG   HandlerThread:253058 [handler.py:handle_request():131] handle_request: shutdown
+2022-04-13 04:11:06,110 INFO    HandlerThread:253058 [handler.py:finish():739] shutting down handler
+2022-04-13 04:11:06,908 INFO    WriterThread:253058 [datastore.py:close():281] close: /raid/projects/weustis/CrossConv/wandb/run-20220413_041030-2u9vkniz/run-2u9vkniz.wandb
+2022-04-13 04:11:07,090 INFO    SenderThread:253058 [sender.py:finish():1075] shutting down sender
+2022-04-13 04:11:07,090 INFO    SenderThread:253058 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-13 04:11:07,090 INFO    SenderThread:253058 [file_pusher.py:join():182] waiting for file pusher
+2022-04-13 04:11:07,092 INFO    MainThread:253058 [internal.py:handle_exit():79] Internal process exited

@@ -1,0 +1,142 @@
+2022-04-13 04:06:37,937 INFO    MainThread:151174 [internal.py:wandb_internal():89] W&B internal server running at pid: 151174, started at: 2022-04-13 04:06:37.937100
+2022-04-13 04:06:37,939 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: check_version
+2022-04-13 04:06:37,939 INFO    WriterThread:151174 [datastore.py:open_for_write():77] open: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/run-amnsbxwm.wandb
+2022-04-13 04:06:37,941 DEBUG   SenderThread:151174 [sender.py:send():235] send: header
+2022-04-13 04:06:37,941 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: check_version
+2022-04-13 04:06:37,976 DEBUG   SenderThread:151174 [sender.py:send():235] send: run
+2022-04-13 04:06:38,334 INFO    SenderThread:151174 [dir_watcher.py:__init__():169] watching files in: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files
+2022-04-13 04:06:38,334 INFO    SenderThread:151174 [sender.py:_start_run_threads():809] run started: amnsbxwm with start time 1649840797
+2022-04-13 04:06:38,334 DEBUG   SenderThread:151174 [sender.py:send():235] send: summary
+2022-04-13 04:06:38,334 INFO    SenderThread:151174 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:06:38,336 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: run_start
+2022-04-13 04:06:39,337 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-summary.json
+2022-04-13 04:06:39,843 DEBUG   HandlerThread:151174 [meta.py:__init__():36] meta init
+2022-04-13 04:06:39,844 DEBUG   HandlerThread:151174 [meta.py:__init__():50] meta init done
+2022-04-13 04:06:39,844 DEBUG   HandlerThread:151174 [meta.py:probe():210] probe
+2022-04-13 04:06:39,868 DEBUG   HandlerThread:151174 [meta.py:_setup_git():200] setup git
+2022-04-13 04:06:39,901 DEBUG   HandlerThread:151174 [meta.py:_setup_git():207] setup git done
+2022-04-13 04:06:39,901 DEBUG   HandlerThread:151174 [meta.py:_save_pip():54] save pip
+2022-04-13 04:06:39,902 DEBUG   HandlerThread:151174 [meta.py:_save_pip():68] save pip done
+2022-04-13 04:06:39,902 DEBUG   HandlerThread:151174 [meta.py:_save_conda():75] save conda
+2022-04-13 04:06:40,338 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/conda-environment.yaml
+2022-04-13 04:06:40,339 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/requirements.txt
+2022-04-13 04:06:40,555 DEBUG   HandlerThread:151174 [meta.py:_save_conda():85] save conda done
+2022-04-13 04:06:40,555 DEBUG   HandlerThread:151174 [meta.py:probe():248] probe done
+2022-04-13 04:06:40,559 DEBUG   SenderThread:151174 [sender.py:send():235] send: files
+2022-04-13 04:06:40,559 INFO    SenderThread:151174 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-04-13 04:06:40,564 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-13 04:06:40,565 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 04:06:41,339 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/conda-environment.yaml
+2022-04-13 04:06:41,339 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log
+2022-04-13 04:06:41,339 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_created():217] file/dir created: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-metadata.json
+2022-04-13 04:06:41,692 INFO    Thread-11 :151174 [upload_job.py:push():137] Uploaded file /tmp/tmpqetxqz4zwandb/3sffuf3o-wandb-metadata.json
+2022-04-13 04:06:43,339 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log
+2022-04-13 04:06:53,346 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log
+2022-04-13 04:06:57,142 DEBUG   SenderThread:151174 [sender.py:send():235] send: telemetry
+2022-04-13 04:06:57,143 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:57,143 DEBUG   SenderThread:151174 [sender.py:send():235] send: exit
+2022-04-13 04:06:57,143 INFO    SenderThread:151174 [sender.py:send_exit():371] handling exit code: 1
+2022-04-13 04:06:57,144 INFO    SenderThread:151174 [sender.py:send_exit():373] handling runtime: 18
+2022-04-13 04:06:57,145 INFO    SenderThread:151174 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:06:57,145 INFO    SenderThread:151174 [sender.py:send_exit():379] send defer
+2022-04-13 04:06:57,145 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:57,146 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,147 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 0
+2022-04-13 04:06:57,147 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,147 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-13 04:06:57,147 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 1
+2022-04-13 04:06:57,147 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,147 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 1
+2022-04-13 04:06:57,348 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log
+2022-04-13 04:06:57,348 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-summary.json
+2022-04-13 04:06:57,632 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,632 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:57,633 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-13 04:06:57,633 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 2
+2022-04-13 04:06:57,633 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:57,634 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,634 DEBUG   SenderThread:151174 [sender.py:send():235] send: stats
+2022-04-13 04:06:57,634 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 2
+2022-04-13 04:06:57,635 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,635 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-13 04:06:57,635 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 3
+2022-04-13 04:06:57,635 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,636 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 3
+2022-04-13 04:06:57,636 DEBUG   SenderThread:151174 [sender.py:send():235] send: summary
+2022-04-13 04:06:57,636 INFO    SenderThread:151174 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-13 04:06:57,636 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,636 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-13 04:06:57,636 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 4
+2022-04-13 04:06:57,637 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,637 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 4
+2022-04-13 04:06:57,637 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,637 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-13 04:06:57,698 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 5
+2022-04-13 04:06:57,699 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:57,699 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 5
+2022-04-13 04:06:57,699 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:57,699 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-13 04:06:57,699 INFO    SenderThread:151174 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-13 04:06:57,735 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,348 INFO    Thread-8  :151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-summary.json
+2022-04-13 04:06:58,349 INFO    SenderThread:151174 [dir_watcher.py:_on_file_modified():230] file/dir modified: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/config.yaml
+2022-04-13 04:06:58,349 INFO    SenderThread:151174 [dir_watcher.py:finish():313] scan: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files
+2022-04-13 04:06:58,350 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/conda-environment.yaml conda-environment.yaml
+2022-04-13 04:06:58,350 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/config.yaml config.yaml
+2022-04-13 04:06:58,353 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log output.log
+2022-04-13 04:06:58,353 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/requirements.txt requirements.txt
+2022-04-13 04:06:58,353 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-summary.json wandb-summary.json
+2022-04-13 04:06:58,354 INFO    SenderThread:151174 [dir_watcher.py:finish():327] scan save: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-metadata.json wandb-metadata.json
+2022-04-13 04:06:58,356 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 6
+2022-04-13 04:06:58,356 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,360 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:58,364 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 6
+2022-04-13 04:06:58,364 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:58,365 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-13 04:06:58,365 INFO    SenderThread:151174 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-13 04:06:58,458 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,458 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,560 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,560 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,662 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,662 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,666 INFO    Thread-15 :151174 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/requirements.txt
+2022-04-13 04:06:58,686 INFO    Thread-14 :151174 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/output.log
+2022-04-13 04:06:58,692 INFO    Thread-12 :151174 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/conda-environment.yaml
+2022-04-13 04:06:58,731 INFO    Thread-13 :151174 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/config.yaml
+2022-04-13 04:06:58,736 INFO    Thread-16 :151174 [upload_job.py:push():137] Uploaded file /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/files/wandb-summary.json
+2022-04-13 04:06:58,763 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,763 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,864 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,864 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,936 INFO    Thread-7  :151174 [sender.py:transition_state():392] send defer: 7
+2022-04-13 04:06:58,937 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:58,937 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 7
+2022-04-13 04:06:58,937 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:58,937 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-13 04:06:58,965 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:58,984 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 8
+2022-04-13 04:06:58,984 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:58,985 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:58,985 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 8
+2022-04-13 04:06:58,985 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:58,985 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-13 04:06:58,985 INFO    SenderThread:151174 [sender.py:transition_state():392] send defer: 9
+2022-04-13 04:06:58,985 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: defer
+2022-04-13 04:06:58,986 DEBUG   SenderThread:151174 [sender.py:send():235] send: final
+2022-04-13 04:06:58,986 INFO    HandlerThread:151174 [handler.py:handle_request_defer():154] handle defer: 9
+2022-04-13 04:06:58,986 DEBUG   SenderThread:151174 [sender.py:send():235] send: footer
+2022-04-13 04:06:58,986 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: defer
+2022-04-13 04:06:58,986 INFO    SenderThread:151174 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-13 04:06:59,085 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-13 04:06:59,085 DEBUG   SenderThread:151174 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 04:06:59,086 INFO    SenderThread:151174 [file_pusher.py:join():182] waiting for file pusher
+2022-04-13 04:06:59,168 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: get_summary
+2022-04-13 04:06:59,169 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: sampled_history
+2022-04-13 04:06:59,169 DEBUG   HandlerThread:151174 [handler.py:handle_request():131] handle_request: shutdown
+2022-04-13 04:06:59,169 INFO    HandlerThread:151174 [handler.py:finish():739] shutting down handler
+2022-04-13 04:06:59,986 INFO    WriterThread:151174 [datastore.py:close():281] close: /raid/projects/weustis/CrossConv/wandb/run-20220413_040637-amnsbxwm/run-amnsbxwm.wandb
+2022-04-13 04:07:00,167 INFO    SenderThread:151174 [sender.py:finish():1075] shutting down sender
+2022-04-13 04:07:00,167 INFO    SenderThread:151174 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-13 04:07:00,168 INFO    SenderThread:151174 [file_pusher.py:join():182] waiting for file pusher
+2022-04-13 04:07:00,170 INFO    MainThread:151174 [internal.py:handle_exit():79] Internal process exited

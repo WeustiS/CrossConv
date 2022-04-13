@@ -1,0 +1,9 @@
+/raid/projects/weustis/conda/envs/weustis/lib/python3.9/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1640811803361/work/aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+  0%|                                                                                                                                        | 0/4039 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/raid/projects/weustis/CrossConv/train.py", line 57, in <module>
+    top1, top5 = acc(pred, y)
+  File "/raid/projects/weustis/CrossConv/utils.py", line 12, in acc
+    correct_k = correct[:k].view(-1).float().sum(0)
+RuntimeError: view size is not compatible with input tensor's size and stride (at least one dimension spans across two contiguous subspaces). Use .reshape(...) instead.
